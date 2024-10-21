@@ -9,8 +9,6 @@ char pred(char symbol);
 void infixtopostfix();
 void main()
 {
-    printf("\nName: AKSHAY S");
-    printf("\nRoll no: 1BM23CS022\n");
     printf("Enter the infix expression:");
     scanf("%s",infix);
     infixtopostfix();
@@ -90,3 +88,9 @@ char pred(char symbol)
     }
     return(p);
 }
+Output:
+Enter the infix expression:A+B*C/D
+Infix expression:
+A+B*C/D
+Postfix expression:
+ABC*D/+
