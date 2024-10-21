@@ -1,4 +1,5 @@
 //Stack Operations
+Code:
 #include<stdio.h>
 #include<conio.h>
 #define max 3
@@ -66,3 +67,66 @@ void display()
     }
     return;
 }
+Output:
+ 1:Push
+ 2:Pop
+ 3:Display
+ 4:Exit
+Enter your choice:1
+Enter element to be pushed:10
+ 1:Push
+ 2:Pop
+ 3:Display
+ 4:Exit
+Enter your choice:1
+Enter element to be pushed:20
+ 1:Push
+ 2:Pop
+ 3:Display
+ 4:Exit
+Enter your choice:1
+Enter element to be pushed:30
+ 1:Push
+ 2:Pop
+ 3:Display
+ 4:Exit
+Enter your choice:1
+STACK OVERFLOW
+ 1:Push
+ 2:Pop
+ 3:Display
+ 4:Exit
+Enter your choice:3
+Stack contents:
+30
+20
+10
+ 1:Push
+ 2:Pop
+ 3:Display
+ 4:Exit
+Enter your choice:2
+Popped element is 30
+ 1:Push
+ 2:Pop
+ 3:Display
+ 4:Exit
+Enter your choice:2
+Popped element is 20
+ 1:Push
+ 2:Pop
+ 3:Display
+ 4:Exit
+Enter your choice:2
+Popped element is 10
+ 1:Push
+ 2:Pop
+ 3:Display
+ 4:Exit
+Enter your choice:2
+STACK UNDERFLOW
+ 1:Push
+ 2:Pop
+ 3:Display
+ 4:Exit
+Enter your choice:4
