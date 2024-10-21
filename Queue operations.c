@@ -84,3 +84,67 @@ void display()
     }
     return;
 }
+Output:
+1.Insert
+2.Delete
+3.Display
+4.Exit
+Enter your choice:1
+Enter element to be inserted:10
+
+1.Insert
+2.Delete
+3.Display
+4.Exit
+Enter your choice:1
+Enter element to be inserted:20
+
+1.Insert
+2.Delete
+3.Display
+4.Exit
+Enter your choice:1
+Enter element to be inserted:30
+
+1.Insert
+2.Delete
+3.Display
+4.Exit
+Enter your choice:1
+Queue if full
+1.Insert
+2.Delete
+3.Display
+4.Exit
+Enter your choice:3
+Queue contents:
+10      20      30
+1.Insert
+2.Delete
+3.Display
+4.Exit
+Enter your choice:2
+Deleted element is 10
+1.Insert
+2.Delete
+3.Display
+4.Exit
+Enter your choice:2
+Deleted element is 20
+1.Insert
+2.Delete
+3.Display
+4.Exit
+Enter your choice:2
+Deleted element is 30
+1.Insert
+2.Delete
+3.Display
+4.Exit
+Enter your choice:2
+Queue is empty
+1.Insert
+2.Delete
+3.Display
+4.Exit
+Enter your choice:4
