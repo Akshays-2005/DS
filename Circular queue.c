@@ -1,3 +1,5 @@
+//Circular Queue
+Code:
 #include<stdio.h>
 #define size 4
 int cq[20],i,ch,front=-1,rear=-1,item;
@@ -10,7 +12,7 @@ void main()
     {
         printf("\n1.Insert\n2.Delete\n3.Display\n4.Exit\n");
         printf("Enter your choice:");
-        scanf("%d"&ch);
+        scanf("%d",&ch);
         switch(ch)
         {
             case 1:insert();
@@ -96,3 +98,81 @@ void display()
     }
     return;
 }
+
+Output:
+1.Insert
+2.Delete
+3.Display
+4.Exit
+Enter your choice:1
+Enter element to be inserted:10
+
+1.Insert
+2.Delete
+3.Display
+4.Exit
+Enter your choice:1
+Enter element to be inserted:20
+
+1.Insert
+2.Delete
+3.Display
+4.Exit
+Enter your choice:1
+Enter element to be inserted:30
+
+1.Insert
+2.Delete
+3.Display
+4.Exit
+Enter your choice:1
+Enter element to be inserted:40
+
+1.Insert
+2.Delete
+3.Display
+4.Exit
+Enter your choice:1
+Circular queue is full
+1.Insert
+2.Delete
+3.Display
+4.Exit
+Enter your choice:3
+Circular queue contains:
+10      20      30      40
+1.Insert
+2.Delete
+3.Display
+4.Exit
+Enter your choice:2
+Deleted element is 10
+1.Insert
+2.Delete
+3.Display
+4.Exit
+Enter your choice:2
+Deleted element is 20
+1.Insert
+2.Delete
+3.Display
+4.Exit
+Enter your choice:2
+Deleted element is 30
+1.Insert
+2.Delete
+3.Display
+4.Exit
+Enter your choice:2
+Deleted element is 40
+1.Insert
+2.Delete
+3.Display
+4.Exit
+Enter your choice:2
+Circular queue is empty
+1.Insert
+2.Delete
+3.Display
+4.Exit
+Enter your choice:4
