@@ -1,3 +1,5 @@
+//Factorial of a number using recursion
+Code:
 #include<stdio.h>
 int fact(int n)
 {
@@ -21,3 +23,6 @@ void main()
     f1=fact(n);
     printf("Factorial of %d is %d",t,f1);
 }
+Output:
+Enter number:5
+Factorial of 5 is 120
