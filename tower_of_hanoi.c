@@ -1,3 +1,5 @@
+//Tower of Hanoi
+Code:
 #include<stdio.h>
 void toh(int n,char s,char t,char d)
 {
@@ -21,3 +23,12 @@ void main()
     scanf("%d",&n);
     toh(n,s,t,d);
 }
+Output:
+Enter number:3
+Move 1 from S to D
+Move 2 from S to T
+Move 1 from D to T
+Move 3 from S to D
+Move 1 from T to S
+Move 2 from T to D
+Move 1 from S to D
