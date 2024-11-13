@@ -1,3 +1,5 @@
+//Linked list with Deletion
+Code:
 #include<stdio.h>
 struct Node{
     int data;
@@ -119,3 +121,81 @@ void delete_specific_element(){
         printf("Element not found");
     }
 }
+Output:
+1.Create
+2.Delete First element
+3.Delete last element
+4.Delete specific element
+5.Display
+6.Exit
+Enter your choice:1
+Enter element:10
+If you want to add another element (Y/N):y
+Enter element:20
+If you want to add another element (Y/N):y
+Enter element:30
+If you want to add another element (Y/N):y
+Enter element:40
+If you want to add another element (Y/N):y
+Enter element:50
+If you want to add another element (Y/N):n
+
+1.Create
+2.Delete First element
+3.Delete last element
+4.Delete specific element
+5.Display
+6.Exit
+Enter your choice:2
+
+1.Create
+2.Delete First element
+3.Delete last element
+4.Delete specific element
+5.Display
+6.Exit
+Enter your choice:5
+Elements in linked list are:
+20      30      40      50
+1.Create
+2.Delete First element
+3.Delete last element
+4.Delete specific element
+5.Display
+6.Exit
+Enter your choice:3
+
+1.Create
+2.Delete First element
+3.Delete last element
+4.Delete specific element
+5.Display
+6.Exit
+Enter your choice:5
+Elements in linked list are:
+20      30      40
+1.Create
+2.Delete First element
+3.Delete last element
+4.Delete specific element
+5.Display
+6.Exit
+Enter your choice:4
+Enter element to be deleted:30
+
+1.Create
+2.Delete First element
+3.Delete last element
+4.Delete specific element
+5.Display
+6.Exit
+Enter your choice:5
+Elements in linked list are:
+20      40
+1.Create
+2.Delete First element
+3.Delete last element
+4.Delete specific element
+5.Display
+6.Exit
+Enter your choice:6
