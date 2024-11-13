@@ -1,3 +1,5 @@
+//Linked list with Insertion
+Code:
 #include<stdio.h>
 struct Node{
     int data;
@@ -114,3 +116,60 @@ void insert_at_given_position(){
     new1->link=temp->link;
     temp->link=new1;
 }
+Output:
+1.Create
+2.Insert Beginnig
+3.Insert End
+4.Insert at given position
+5.Display
+6.Exit
+Enter your choice:1
+Enter element:10
+If you want to add another element (Y/N):y
+Enter element:20
+If you want to add another element (Y/N):n
+
+1.Create
+2.Insert Beginnig
+3.Insert End
+4.Insert at given position
+5.Display
+6.Exit
+Enter your choice:2
+Enter element:0
+
+1.Create
+2.Insert Beginnig
+3.Insert End
+4.Insert at given position
+5.Display
+6.Exit
+Enter your choice:3
+Enter element:40
+
+1.Create
+2.Insert Beginnig
+3.Insert End
+4.Insert at given position
+5.Display
+6.Exit
+Enter your choice:4
+Enter element:30
+Enter position:4
+
+1.Create
+2.Insert Beginnig
+3.Insert End
+4.Insert at given position
+5.Display
+6.Exit
+Enter your choice:5
+Elements in linked list are:
+0       10      20      30      40
+1.Create
+2.Insert Beginnig
+3.Insert End
+4.Insert at given position
+5.Display
+6.Exit
+Enter your choice:6
