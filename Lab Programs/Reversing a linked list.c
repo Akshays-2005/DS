@@ -1,3 +1,5 @@
+//Reversing a linked list
+Code:
 #include<stdio.h>
 void reverse();
 void create();
@@ -65,3 +67,43 @@ void reverse(){
     }
     start=b;
 }
+Output:
+1.Create a linked list
+2.Reverse a linked list
+3.Display
+4.Exit
+Enter your choice:1
+Enter value:10
+Do you want to add another element(Y/N):y
+Enter value:20
+Do you want to add another element(Y/N):y
+Enter value:30
+Do you want to add another element(Y/N):y
+Enter value:40
+Do you want to add another element(Y/N):n
+
+1.Create a linked list
+2.Reverse a linked list
+3.Display
+4.Exit
+Enter your choice:3
+Elements in the linked list are:
+10      20      30      40
+1.Create a linked list
+2.Reverse a linked list
+3.Display
+4.Exit
+Enter your choice:2
+
+1.Create a linked list
+2.Reverse a linked list
+3.Display
+4.Exit
+Enter your choice:3
+Elements in the linked list are:
+40      30      20      10
+1.Create a linked list
+2.Reverse a linked list
+3.Display
+4.Exit
+Enter your choice:4
