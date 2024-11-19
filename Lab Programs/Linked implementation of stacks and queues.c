@@ -1,3 +1,5 @@
+//Linked implementation of Queues and Stacks
+Code:
 #include<stdio.h>
 #include<stdlib.h>
 struct Node{
@@ -136,3 +138,122 @@ void display1(){
         temp=temp->link;
     }
 }
+Output:
+1.Linked implementation of queues
+2.Linked implementation of stacks
+3.Exit
+Enter your choice:1
+
+1.Insert
+2.Delete
+3.Display
+4.Return
+Enter your choice:1
+Enter element:10
+
+1.Insert
+2.Delete
+3.Display
+4.Return
+Enter your choice:1
+Enter element:20
+
+1.Insert
+2.Delete
+3.Display
+4.Return
+Enter your choice:3
+Elements in the linked list are:
+10      20
+1.Insert
+2.Delete
+3.Display
+4.Return
+Enter your choice:2
+
+1.Insert
+2.Delete
+3.Display
+4.Return
+Enter your choice:3
+Elements in the linked list are:
+20
+1.Insert
+2.Delete
+3.Display
+4.Return
+Enter your choice:2
+
+1.Insert
+2.Delete
+3.Display
+4.Return
+Enter your choice:3
+Linked list is empty
+1.Insert
+2.Delete
+3.Display
+4.Return
+Enter your choice:4
+
+1.Linked implementation of queues
+2.Linked implementation of stacks
+3.Exit
+Enter your choice:2
+
+1.Push
+2.Pop
+3.Display
+4.Return
+Enter your choice:1
+Enter element:10
+
+1.Push
+2.Pop
+3.Display
+4.Return
+Enter your choice:1
+Enter element:20
+
+1.Push
+2.Pop
+3.Display
+4.Return
+Enter your choice:3
+Elements in linked list are:
+20      10
+1.Push
+2.Pop
+3.Display
+4.Return
+Enter your choice:2
+
+1.Push
+2.Pop
+3.Display
+4.Return
+Enter your choice:3
+Elements in linked list are:
+10
+1.Push
+2.Pop
+3.Display
+4.Return
+Enter your choice:2
+
+1.Push
+2.Pop
+3.Display
+4.Return
+Enter your choice:3
+Linked list is empty
+1.Push
+2.Pop
+3.Display
+4.Return
+Enter your choice:4
+
+1.Linked implementation of queues
+2.Linked implementation of stacks
+3.Exit
+Enter your choice:3
