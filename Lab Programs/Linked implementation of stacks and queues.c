@@ -1,5 +1,5 @@
 //Linked implementation of Queues and Stacks
-Code:
+//Code:
 #include<stdio.h>
 #include<stdlib.h>
 struct Node{
@@ -138,7 +138,7 @@ void display1(){
         temp=temp->link;
     }
 }
-Output:
+/* Output:
 1.Linked implementation of queues
 2.Linked implementation of stacks
 3.Exit
@@ -256,4 +256,4 @@ Enter your choice:4
 1.Linked implementation of queues
 2.Linked implementation of stacks
 3.Exit
-Enter your choice:3
+Enter your choice:3 */
