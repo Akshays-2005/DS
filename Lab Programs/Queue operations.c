@@ -1,5 +1,5 @@
 //Implementation of Queue operations
-Code:
+//Code:
 #include<stdio.h>
 #define max 3
 int q[20],front=-1,rear=-1,ch,ele,i;
@@ -84,7 +84,7 @@ void display()
     }
     return;
 }
-Output:
+/* Output:
 1.Insert
 2.Delete
 3.Display
@@ -147,4 +147,4 @@ Queue is empty
 2.Delete
 3.Display
 4.Exit
-Enter your choice:4
+Enter your choice:4 */
