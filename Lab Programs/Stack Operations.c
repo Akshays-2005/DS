@@ -1,5 +1,5 @@
 //Stack Operations
-Code:
+//Code:
 #include<stdio.h>
 #include<conio.h>
 #define max 3
@@ -67,7 +67,7 @@ void display()
     }
     return;
 }
-Output:
+/* Output:
  1:Push
  2:Pop
  3:Display
@@ -129,4 +129,4 @@ STACK UNDERFLOW
  2:Pop
  3:Display
  4:Exit
-Enter your choice:4
+Enter your choice:4 */
