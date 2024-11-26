@@ -1,5 +1,5 @@
 //Linked list with Deletion
-Code:
+//Code:
 #include<stdio.h>
 struct Node{
     int data;
@@ -121,7 +121,7 @@ void delete_specific_element(){
         printf("Element not found");
     }
 }
-Output:
+/* Output:
 1.Create
 2.Delete First element
 3.Delete last element
@@ -198,4 +198,4 @@ Elements in linked list are:
 4.Delete specific element
 5.Display
 6.Exit
-Enter your choice:6
+Enter your choice:6 */
