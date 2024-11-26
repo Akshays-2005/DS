@@ -1,5 +1,5 @@
 //Infix to Postfix conversion
-Code:
+//Code:
 #include<stdio.h>
 #include<conio.h>
 #include<string.h>
@@ -90,9 +90,9 @@ char pred(char symbol)
     }
     return(p);
 }
-Output:
+/* Output:
 Enter the infix expression:A+B*C/D
 Infix expression:
 A+B*C/D
 Postfix expression:
-ABC*D/+
+ABC*D/+ */
