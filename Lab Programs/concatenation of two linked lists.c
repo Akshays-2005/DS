@@ -1,5 +1,5 @@
 //Concatenation of two linked lists
-Code:
+//Code:
 #include<stdio.h>
 struct Node{
     int data;
@@ -100,7 +100,7 @@ void concatenate(){
     start1=NULL;
     start2=NULL;
 }
-Output:
+/* Output:
 1.Create 1st linked list
 2.Create 2nd linked list
 3.Concatenate
@@ -143,4 +143,4 @@ Elements in the linked list are:
 3.Concatenate
 4.Display
 5.Exit
-Enter your choice:5
+Enter your choice:5 */
