@@ -1,5 +1,5 @@
 //Circular linked list
-Code:
+//Code:
 #include<stdio.h>
 struct Node{
     int data;
@@ -215,7 +215,7 @@ void display(){
     }
     printf("%d",temp->data);
 }
-Output:
+/*Output:
 1.Create
 2.Insert at beginning
 3.Insert at end
@@ -357,4 +357,4 @@ Circular linked list contains:
 7.Delete specific element
 8.Display
 9.Exit
-Enter your choice:9
+Enter your choice:9 */
