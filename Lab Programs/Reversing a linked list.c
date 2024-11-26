@@ -1,5 +1,5 @@
 //Reversing a linked list
-Code:
+//Code:
 #include<stdio.h>
 void reverse();
 void create();
@@ -67,7 +67,7 @@ void reverse(){
     }
     start=b;
 }
-Output:
+/* Output:
 1.Create a linked list
 2.Reverse a linked list
 3.Display
@@ -106,4 +106,4 @@ Elements in the linked list are:
 2.Reverse a linked list
 3.Display
 4.Exit
-Enter your choice:4
+Enter your choice:4 */
