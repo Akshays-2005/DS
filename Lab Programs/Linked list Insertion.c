@@ -1,5 +1,5 @@
 //Linked list with Insertion
-Code:
+//Code:
 #include<stdio.h>
 struct Node{
     int data;
@@ -116,7 +116,7 @@ void insert_at_given_position(){
     new1->link=temp->link;
     temp->link=new1;
 }
-Output:
+/* Output:
 1.Create
 2.Insert Beginnig
 3.Insert End
@@ -172,4 +172,4 @@ Elements in linked list are:
 4.Insert at given position
 5.Display
 6.Exit
-Enter your choice:6
+Enter your choice:6 */
