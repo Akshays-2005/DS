@@ -1,5 +1,5 @@
 //Fibonacci number using recursion
-Code:
+//Code:
 #include<stdio.h>
 int fibo(int n)
 {
@@ -24,6 +24,6 @@ void main()
     fib=fibo(n);
     printf("Fibonacci number:%d",fib);
 }
-Output:
+/* Output:
 Enter number:8
-Fibonacci number:13
+Fibonacci number:13 */
