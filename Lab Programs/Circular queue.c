@@ -1,5 +1,5 @@
 //Circular Queue
-Code:
+//Code:
 #include<stdio.h>
 #define size 4
 int cq[20],i,ch,front=-1,rear=-1,item;
@@ -98,7 +98,7 @@ void display()
     }
     return;
 }
-
+/*
 Output:
 1.Insert
 2.Delete
@@ -175,4 +175,4 @@ Circular queue is empty
 2.Delete
 3.Display
 4.Exit
-Enter your choice:4
+Enter your choice:4 */
