@@ -1,3 +1,5 @@
+//Doubly linked list
+//Code:
 #include<stdio.h>
 struct Node{
     struct Node *pre;
@@ -45,7 +47,7 @@ void main(){
 }
 void create(){
     new1=(node*)malloc(sizeof(node));
-    printf("Enter the data");
+    printf("Enter the data:");
     scanf("%d",&new1->data);
     new1->pre=NULL;
     start=new1;
@@ -197,3 +199,143 @@ void display(){
         temp=temp->next;
     }
 }
+/* Output:
+1.Create DLL
+2.Insert at beginning
+3.Insert at last
+4.Insert at required position
+5.Delete first element
+6.Delete last element
+7.Delete specific element
+8.Display
+9.Exit
+Enter your choice:1
+Enter the data:10
+Do you want to add another element (Y/N):n
+
+1.Create DLL
+2.Insert at beginning
+3.Insert at last
+4.Insert at required position
+5.Delete first element
+6.Delete last element
+7.Delete specific element
+8.Display
+9.Exit
+Enter your choice:2
+Enter element:0
+
+1.Create DLL
+2.Insert at beginning
+3.Insert at last
+4.Insert at required position
+5.Delete first element
+6.Delete last element
+7.Delete specific element
+8.Display
+9.Exit
+Enter your choice:3
+Enter element:30
+
+1.Create DLL
+2.Insert at beginning
+3.Insert at last
+4.Insert at required position
+5.Delete first element
+6.Delete last element
+7.Delete specific element
+8.Display
+9.Exit
+Enter your choice:4
+Enter element:20
+Enter position:3
+
+1.Create DLL
+2.Insert at beginning
+3.Insert at last
+4.Insert at required position
+5.Delete first element
+6.Delete last element
+7.Delete specific element
+8.Display
+9.Exit
+Enter your choice:8
+0       10      20      30
+1.Create DLL
+2.Insert at beginning
+3.Insert at last
+4.Insert at required position
+5.Delete first element
+6.Delete last element
+7.Delete specific element
+8.Display
+9.Exit
+Enter your choice:5
+
+1.Create DLL
+2.Insert at beginning
+3.Insert at last
+4.Insert at required position
+5.Delete first element
+6.Delete last element
+7.Delete specific element
+8.Display
+9.Exit
+Enter your choice:8
+10      20      30
+1.Create DLL
+2.Insert at beginning
+3.Insert at last
+4.Insert at required position
+5.Delete first element
+6.Delete last element
+7.Delete specific element
+8.Display
+9.Exit
+Enter your choice:6
+
+1.Create DLL
+2.Insert at beginning
+3.Insert at last
+4.Insert at required position
+5.Delete first element
+6.Delete last element
+7.Delete specific element
+8.Display
+9.Exit
+Enter your choice:8
+10      20
+1.Create DLL
+2.Insert at beginning
+3.Insert at last
+4.Insert at required position
+5.Delete first element
+6.Delete last element
+7.Delete specific element
+8.Display
+9.Exit
+Enter your choice:7
+Enter element to be deleted:20
+
+1.Create DLL
+2.Insert at beginning
+3.Insert at last
+4.Insert at required position
+5.Delete first element
+6.Delete last element
+7.Delete specific element
+8.Display
+9.Exit
+Enter your choice:8
+10
+1.Create DLL
+2.Insert at beginning
+3.Insert at last
+4.Insert at required position
+5.Delete first element
+6.Delete last element
+7.Delete specific element
+8.Display
+9.Exit
+Enter your choice:9 */
+
