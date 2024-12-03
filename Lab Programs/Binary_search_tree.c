@@ -97,10 +97,31 @@ void postorder(node *temp){
 3.Traverse using Inorder
 4.Traverse using Postorder
 5.Exit
+Enter your choice:1
+Enter data:10
+Do you want to add another element (Y/N):y
+Enter data:15
+Do you want to add another element (Y/N):y
+Enter data:33
+Do you want to add another element (Y/N):y
+Enter data:2
+Do you want to add another element (Y/N):y
+Enter data:7
+Do you want to add another element (Y/N):y
+Enter data:28
+Do you want to add another element (Y/N):y
+Enter data:65
+Do you want to add another element (Y/N):n
+
+1.Create a binary search tree
+2.Traverse using Preoder
+3.Traverse using Inorder
+4.Traverse using Postorder
+5.Exit
 Enter your choice:2
 
 After traversing using Preorder:
-10      5       7       12      34      26
+10      2       7       15      33      28      65
 1.Create a binary search tree
 2.Traverse using Preoder
 3.Traverse using Inorder
@@ -109,7 +130,7 @@ After traversing using Preorder:
 Enter your choice:3
 
 After traversing using Inorder:
-5       7       10      12      26      34
+2       7       10      15      28      33      65
 1.Create a binary search tree
 2.Traverse using Preoder
 3.Traverse using Inorder
@@ -118,7 +139,7 @@ After traversing using Inorder:
 Enter your choice:4
 
 After traversing using postorder:
-7       5       26      34      12      10
+7       2       28      65      33      15      10
 1.Create a binary search tree
 2.Traverse using Preoder
 3.Traverse using Inorder
