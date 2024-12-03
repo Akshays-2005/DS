@@ -1,3 +1,5 @@
+//Binary search tree
+//Code:
 #include<stdio.h>
 struct Node{
     struct Node *left;
@@ -89,3 +91,37 @@ void postorder(node *temp){
         printf("%d\t",temp->data);
     }
 }
+/* Output:
+1.Create a binary search tree
+2.Traverse using Preoder
+3.Traverse using Inorder
+4.Traverse using Postorder
+5.Exit
+Enter your choice:2
+
+After traversing using Preorder:
+10      5       7       12      34      26
+1.Create a binary search tree
+2.Traverse using Preoder
+3.Traverse using Inorder
+4.Traverse using Postorder
+5.Exit
+Enter your choice:3
+
+After traversing using Inorder:
+5       7       10      12      26      34
+1.Create a binary search tree
+2.Traverse using Preoder
+3.Traverse using Inorder
+4.Traverse using Postorder
+5.Exit
+Enter your choice:4
+
+After traversing using postorder:
+7       5       26      34      12      10
+1.Create a binary search tree
+2.Traverse using Preoder
+3.Traverse using Inorder
+4.Traverse using Postorder
+5.Exit
+Enter your choice:5 */
