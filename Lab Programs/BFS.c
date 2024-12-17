@@ -1,3 +1,5 @@
+//Grapf traversal using BFS
+//Code:
 #include<stdio.h>
 int a[10][10],vis[10]={0},q[10],i,j,n,start;
 void bfs(int);
@@ -30,3 +32,14 @@ void bfs(int s){
         }
     }
 }
+/* Output:
+Enter number of nodes:5
+Enter adjacency matrix:
+0 0 1 1 1
+0 0 0 1 1
+1 0 0 1 0
+1 1 1 0 0
+1 1 1 0 0
+Enter starting vertex:1
+BFS traversal:
+1       3       4       5       2 */
