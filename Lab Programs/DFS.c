@@ -1,3 +1,5 @@
+//Graph is connectred or not
+//Code:
 #include<stdio.h>
 int a[10][10],vis[10]={0},i,j,k,n;
 void dfs(int);
@@ -32,3 +34,13 @@ void dfs(int v){
         }
     }
 }
+/* Output:
+Enter number of nodes:5
+Enter adjacency matrix:
+0 0 1 1 1
+0 0 0 1 1
+1 0 0 1 0
+1 1 1 0 0
+1 1 1 0 0
+Graph is connected
+ */
