@@ -1,3 +1,5 @@
+//Linear Probing
+//Code:
 #include<stdio.h>
 int hashtable[100];
 int hashindex,probeindex,m,n,key,data;
@@ -68,3 +70,48 @@ int search_in_hashtable(){
         }
     }
 }
+/* Output:
+    case-1:
+Enter number of memory locations in hash table:7
+
+Enter number of keys in hashtable to be placed:4
+Enter key to be added to hashtable:25
+Enter key to be added to hashtable:35
+Enter key to be added to hashtable:53
+Enter key to be added to hashtable:21
+
+Hash table:
+
+Index 0 --> Key 35
+Index 1 --> Key 21
+Index 2 --> Empty
+Index 3 --> Empty
+Index 4 --> Key 25
+Index 5 --> Key 53
+Index 6 --> Empty
+Enter key to be searched:35
+
+Key 35 is found at index 0
+ case-2:
+Enter number of memory locations in hash table:7
+
+Enter number of keys in hashtable to be placed:4
+Enter key to be added to hashtable:25
+Enter key to be added to hashtable:35
+Enter key to be added to hashtable:53
+Enter key to be added to hashtable:21
+
+Hash table:
+
+Index 0 --> Key 35
+Index 1 --> Key 21
+Index 2 --> Empty
+Index 3 --> Empty
+Index 4 --> Key 25
+Index 5 --> Key 53
+Index 6 --> Empty
+Enter key to be searched:22
+
+Key 22 is not found in hashtable  */
+
+
